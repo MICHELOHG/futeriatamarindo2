@@ -1,0 +1,706 @@
+#cuerpo1{
+    padding-bottom: 5px;
+}
+
+#cuerpo1-reformas{
+    color: #ACB8C1;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.74em;
+    letter-spacing: -0.3px;
+}
+
+
+#cuerpo1-llamadas{
+    color: #ACB8C1;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.74em;
+    letter-spacing: -0.3px;
+}
+
+
+#cuerpo1-llamadas1{
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.74em;
+    letter-spacing: -0.3px;
+}
+
+#cuerpo1-estamos1{
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.74em;
+    letter-spacing: -0.3px;
+}
+
+#cuerpo1-estamos{
+    color: #ACB8C1;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.74em;
+    letter-spacing: -0.3px;
+}
+
+#cuerpo1{
+    padding-top: 1rem;
+    background-color: #282A2C;
+}
+
+
+
+
+
+#cuerpo2{
+    padding: 0;
+    background-color: #363331;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="%23FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E') !important;
+}
+
+
+.navbar-brand img{
+    width: 10rem;
+}
+
+.navbar {
+    padding-top: 1.5rem;
+}
+
+
+#opcion{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+    line-height: 1.7em;
+    color: #ffffff;
+}
+
+
+
+
+.barrita{
+    background-color: #2B6D55;
+  }
+
+
+  
+
+  #cuerpo3{
+    background-repeat: no-repeat;
+    align-items: center;
+ 
+    display: flex;
+
+
+    padding-bottom: 6rem;
+    background-size:  cover  ;
+    padding-top: 6rem;
+
+    
+    background-image: url(images/FONDO1.jpg);
+  }
+  
+
+
+#cuerpo3-portadita{
+  opacity: 0;
+  transform: translatey(-50%);
+  transition: opacity 0.5s ease, transform 1s ease;
+}
+
+#cuerpo3-portadita.visible {
+  opacity: 1;
+  transform: translatey(0);
+}
+
+
+
+  .cuerpo3-portada-titulo{
+   
+    line-height: 4rem;
+    color: #040404;
+    font-family: "Philosopher", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+
+}
+
+.cuerpo3-portada {
+    text-align: center;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+ 
+}
+
+
+.cuerpo3-portada-titulo1{
+    margin-top: 3rem;
+    line-height: 2.2rem;
+    color: #5d5c5c;
+    font-family: "Philosopher", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+.cuerpo3-portada-titulo3{
+    margin-top: 4REM;
+}
+
+#boton1 {
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    border: none;
+    background-color:#35aa11
+}
+
+#producto1{
+    position: relative;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    opacity: 0;
+    transform: translatey(-50%);
+    transition: opacity 0.5s ease, transform 1s ease;
+  }
+  
+  #producto1.visible {
+    opacity: 1;
+    transform: translatey(0);
+  }
+  
+  
+#producto2{
+    position: relative;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+
+#producto3{
+    position: relative;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    opacity: 0;
+    transform: translatey(-50%);
+    transition: opacity 0.5s ease, transform 1s ease;
+  }
+  
+  #producto3.visible {
+    opacity: 1;
+    transform: translatey(0);
+  }
+
+#texto {
+    font-family: "Philosopher", sans-serif;
+    position: absolute;
+   top: 3rem; /* Ajusta según necesites */
+  
+    color: rgb(255, 255, 255); /* Cambia el color según necesites */
+}
+
+#texto2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#oferta {
+    margin-top: 4rem;
+    align-items: center;
+    opacity: 0;
+    transform: translatex(-50%);
+    transition: opacity 2s ease, transform 1s ease;
+  }
+  
+  #oferta.visible {
+    opacity: 1;
+    transform: translatex(0);
+  }
+
+
+#elegirnos{
+  opacity: 0;
+  transform: translatex(-50%);
+  transition: opacity 2s ease, transform 1s ease;
+}
+
+#elegirnos.visible {
+  opacity: 1;
+  transform: translatex(0);
+}
+
+
+#insignias{
+    opacity: 0;
+    transform: translatex(-50%);
+    transition: opacity 2s ease, transform 1s ease;
+  }
+  
+  #insignias.visible {
+    opacity: 1;
+    transform: translatex(0);
+  }
+  
+  
+
+
+#oferta-texto{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#oferta-texto2{
+    font: italic 400 32px / 36px "Philosopher", Helvetica, sans-serif;
+    color: #7fba00;
+}
+
+#oferta-texto1{
+color: #243238;
+    font-size: 16px;
+    line-height: 1.5;
+    font: italic 400 32px / 36px "Philosopher", Helvetica, sans-serif;
+
+}
+
+#oferta-texto3{
+    font: 400 16px / 29px "Roboto Slab", Helvetica, sans-serif;
+    color: #666666;
+    margin: 10px 0 30px;
+}
+
+
+#elegirnos1-texto1{
+    margin-bottom: rem;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #1f2020;
+   font-family: "Philosopher", Helvetica, sans-serif;;
+}
+
+#elegirnos1{
+    margin-top: 2rem;
+    align-items: center;
+}
+
+#elegirnos2{
+    margin-top: 2rem;
+    align-items: center;
+}
+
+#elegirnos-columna1{
+    padding: 0;
+}
+
+
+#elegirnos-columna3{
+ text-align: center;
+}
+
+#elegirnos1-texto{
+    padding-left: 1rem;
+    padding-right: 0;
+}
+
+#elegirnos{
+    padding-right: 0rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+
+}
+
+#elegirnos-contenedor{
+    display: flex;
+    justify-content: center;
+    background-position: 40% 70.1298%;
+    background-image: url('images/fondo3.jpg');
+}
+
+#elegirnos1-imagen {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#elegirnos-columna2 img {
+    width: 100%;
+}
+
+
+#elegirnos1-imagen img{
+    width:100%;
+}
+#elegirnos1-texto2{
+    line-height: 1.2rem;
+    padding: 0;
+    font-size: 1rem;
+    color: #525454;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+#oferta-contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#oferta-imagen img{
+    width: 100%;
+}
+
+#productos{
+    display: flex;
+}
+#producto1 img{
+  width: 100%;
+  height: auto;
+}
+
+#producto2 img{
+    width: 100%;
+    height: auto;
+  }
+
+  
+  #producto3 img{
+    width: 100%;
+    height: auto;
+  }
+  
+
+
+  #contenedor-temporada{
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+
+  #temporada-titulo {
+    line-height: 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: "Philosopher", sans-serif;
+ color: #040404;
+    position: relative; /* Asegúrate de que el contenedor tenga posición relativa */
+}
+
+#temporada-titulo::after {
+    background: rgba(0, 0, 0, 0) url(images/lazo.png) no-repeat scroll center bottom;
+    position: absolute;
+    content: "";
+    right: 0;
+    left: 0;
+   
+    bottom: -2.2rem; /* Posiciona el pseudo-elemento en la parte inferior */
+    height: 30px;
+    width: 100%;
+}
+
+.card-text{
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    font-weight: 600;
+    color: #575858;
+
+}
+
+#contenedor-noticias{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#noticia1-titulo{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+ color: #040404;
+}
+
+#noticia1, #noticia2, #noticia3{
+    margin-bottom: 4rem;
+}
+
+#noticia1-desc{
+    margin-top: 1rem;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #575858;
+}
+
+#noticia1-enlace{
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #0c9a3b;
+    margin-top: 1rem;
+}
+
+#noticia1-imagen img{
+    height: 10rem;
+    width: 100%;
+}
+
+#noticias{
+    margin-top: 4rem;
+   
+}
+
+#noticias-titulo::after {
+    background: rgba(0, 0, 0, 0) url(images/lazo.png) no-repeat scroll center bottom;
+    position: absolute;
+    content: "";
+    right: 0;
+    left: 0;
+   
+    bottom: -2.2rem; /* Posiciona el pseudo-elemento en la parte inferior */
+    height: 30px;
+    width: 100%;
+}
+
+#noticias-titulo{
+    line-height: 2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: "Philosopher", sans-serif;
+ color: #040404;
+    position: relative; 
+}
+
+#insignia1 img{
+    width: 100%;
+
+}
+
+#insignia2 img{
+    width: 100%;
+
+}
+#insignia3 img{
+    width: 100%;
+
+}
+#insignia4 img{
+    width: 100%;
+
+}
+#insignia5 img{
+    width: 100%;
+
+}
+
+#contenedor-insignias{
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+iframe#mapita {
+    width: 100%;
+}
+
+#cuerpo2 {
+    position: sticky;
+    top: 0; /* Se queda fijo en la parte superior */
+    z-index: 1000; /* Asegura que se superponga sobre otros elementos */
+    background-color: white; /* Fondo para que se vea bien al scrollear */
+}
+
+#footer-contenido{
+
+    font-family: "Roboto Slab", Helvetica, sans-serif;;
+    color: white;
+}
+
+#boton-footer{
+    margin-bottom: 1rem;
+    background-color: #2b6d55;
+}
+
+#footer-enlaces{
+    margin-bottom: 1rem;
+}
+
+#footer-creditos{
+    font-weight: 700;
+    color: #989b9c;
+}
+
+#contenedor-footer{
+    padding: 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/fondo5.jpg);
+}
+
+#footer-whatsapp{
+    margin-top: 1rem;
+}
+
+#footer{
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: rgba(26, 26, 26, 0.812);
+}
+
+
+#contenedor-acerca{
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+#acerca{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    opacity: 0;
+    transform: translatex(-50%);
+    transition: opacity 0.5s ease, transform 1s ease;
+  }
+  
+  #acerca.visible {
+    opacity: 1;
+    transform: translatex(0);
+  }
+.cuerpo4-contenedor-desc-propietario-n{
+    color: #0c9a3b;
+    font-family: "Philosopher", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+
+.cuerpo4-contenedor-desc-propietario-c{
+    color: #555555;
+    font-family: "Philosopher", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#acerca-titulo{
+    line-height: 2rem;
+    color: #090909;
+    font-family: "Philosopher", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+
+#acerca-desc-texto{
+    padding: 0;
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    color: #666564;
+}
+
+#foto-principal{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#foto-principal img{
+  width: 100%;
+}
+
+.gallery {
+    justify-content: center;
+    display: flex;     /* Usa flexbox para organizar las imágenes */
+    flex-wrap: wrap;      /* Permite que las imágenes se ajusten en varias filas */
+    gap: 10px;            /* Espacio entre las imágenes */
+}
+
+.gallery img {
+    width: 100px;         /* Cambia este valor al ancho que desees */
+    height: auto;         /* Mantiene la proporción de la imagen */
+    object-fit: cover;    /* Asegura que la imagen cubra el área */
+}
+
+.acer-desc-propietario-n{
+    margin-left: 1rem;
+}
+#acer-info{
+    align-items: center;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    .cuerpo3-portada-titulo1{
+        margin-top: 1.5rem;
+        line-height: 1.2rem;
+        color: #5d5c5c;
+        font-family: "Philosopher", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+    
+    }
+    .cuerpo3-portada-titulo3 {
+        margin-top: 0REM;
+    }
+    
+    #boton1 {
+        font-family: "Oswald", sans-serif;
+        font-size: 1.2rem;
+        border: none;
+        background-color: #35aa11;
+    }
+    
+
+    .cuerpo3-portada {
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+     
+    }
+
+    #cuerpo3{
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+    }
+   
+  .cuerpo3-portada-titulo{  
+   
+    line-height: 1.2rem;
+    color: #040404;
+    font-family: "Philosopher", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+}
+    
